@@ -1,0 +1,66 @@
+.option_btns {
+    padding: 10px 15px;
+    margin: 10px 3px 10px 3px;
+    border-radius: 25px;
+    border: 2px solid #8f7d5c;
+    background-color: transparent;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.option_btns:hover {
+    cursor: pointer;
+    background-color: #d2b687cb;
+}
+
+.option_btns:nth-of-type(1) {
+    margin: 10px 3px 0 30px;
+}
+
+.option_btns:nth-of-type(3) {
+    margin: 10px 3px 0 30px;
+}
+
+.option_btns:nth-of-type(5) {
+    margin: 10px 3px 0 30px;
+}
+
+.menuBtnOptions{
+    display:none;
+    animation: bot-msg 0.3s ease-in-out;
+}
+.yes_noOptions {
+    display: none;
+    animation: bot-msg 0.3s ease-in-out;
+}
+.complaintMenu{
+    display: none;
+    animation: bot-msg 0.3s ease-in-out;
+}
+.goBack{
+    display: none;
+    animation: bot-msg 0.3s ease-in-out;
+}
+@keyframes bot-msg{
+    0%{
+        transform: translateX(-10%);
+        opacity:0;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity:1;
+    }
+}
+
+#back{
+    background-color: #8e7446cb;
+    border-color: #8f7d5c;
+    color: #e2e2e2;
+    margin-bottom: 10px;
+}
+.left-arrow{
+    color: #e2e2e2;
+}
+#back:hover{
+    background-color: #b39a6fcb;
+}
